@@ -4,7 +4,7 @@
 This is a personal portfolio website showcasing my skills, education, work experience, and projects. The website is designed to provide an overview of my background as a Industrial Engineer and electronic engineer with expertise in programming and industrial automation.
 
 ## Features Implemented
-- **Navigation Bar**: Allows users to easily navigate between sections. (still develop)
+- **Navigation Bar**: Allows users to easily navigate between section.
 - **about Me Section**: Displays a brief introduction about my professional background.
 - **Work Experience Section**: Highlights my work experience with responsibilities and achievements.
 - **Skills Section**: Showcases technical skills with corresponding icons.
