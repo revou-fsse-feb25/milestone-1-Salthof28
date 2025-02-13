@@ -1,7 +1,7 @@
 # Project Milestone 1
 
 ## Overview
-This is a personal portfolio website showcasing my skills, education, work experience, and projects. The website is designed to provide an overview of my background as a Software Engineer with expertise in programming and industrial automation.
+This is a personal portfolio website showcasing my skills, education, work experience, and projects. The website is designed to provide an overview of my background as a Industrial Engineer and electronic engineer with expertise in programming and industrial automation.
 
 ## Features Implemented
 - **Navigation Bar**: Allows users to easily navigate between sections. (still develop)
