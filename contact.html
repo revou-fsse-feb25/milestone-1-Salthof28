@@ -9,18 +9,18 @@
     <!-- Navigasi -->
     <header>
         <nav>
-            <section>
-                <a href="about.html">About</a>
-                <a href="project.html">My Project</a>
-                <a href="contact.html">Contact</a>
-            </section>
+            <a href="index.html#home">Home</a>
+            <a href="index.html#about">About</a>
+            <a href="project.html">My Project</a>
+            <a href="contact.html">Contact</a>
         </nav>
     </header>
     <main>
         <!-- Contact US -->
         <section>
             <h2>Contact Me</h2>
-            <form action="">
+            <!-- using method GET first to prevent error, if using POST, it will cause an error because there is no backend yet -->
+            <form action="contact.html" method="get">
                 <label>Nama</label>
                 <br>
                 <input type="text" name="name">
@@ -31,12 +31,30 @@
                 <input type="email" name="email">
                 <br><br>
         
+                <label>What do you prefer</label>
+                <br>
+                <select name="prefer" id="prefer">
+                    <option value="" selected disabled>None</option>
+                    <option value="colaboration">Colaboration</option>
+                    <option value="hire me">Hire Me</option>
+                </select>
+                <br><br>
+
                 <label>Message</label>
                 <br>
                 <textarea name="message"></textarea>
                 <br><br>
-                <button type="button">Submit</button>
+                <button type="submit">Submit</button>
             </form>
+        </section>
+        <!-- Connect to me -->
+        <section>
+            <h2>Let's Connect</h2>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/salman-althof-241209238">Linkedin</a></li>
+                <li><a href="mailto:salmanalthof31@gmail.com">Email</a></li>
+                <li><a href="https://wa.me/6282120018395?text=Halo%20saya%20tertarik%20dengan%20produk%20Anda">Whatsapp</a></li>
+            </ul>
         </section>
     </main>
     <footer>
