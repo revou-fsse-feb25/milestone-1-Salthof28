@@ -9,7 +9,7 @@ This is a personal portfolio website showcasing my skills, education, work exper
 - **Work Experience Section**: Highlights my work experience with responsibilities and achievements.
 - **Skills Section**: Showcases technical skills with corresponding icons.
 - **Project Section**: Lists personal and professional projects upon future (Project Coming soon)
-- **Contact Form**: Allows users to send messages via a simple contact form. (still develop)
+- **Contact Form**: Allows users to send messages via a simple contact form. (backend still develop)
 
 ## Technologies Used
 - **HTML5**: Structure of the website.
