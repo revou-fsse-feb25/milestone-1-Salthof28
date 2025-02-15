@@ -2,6 +2,7 @@
 
 ## Overview
 This is a personal portfolio website showcasing my skills, education, work experience, and projects. The website is designed to provide an overview of my background as a Industrial Engineer and electronic engineer with expertise in programming and industrial automation.
+Deploy Website: https://revou-fsse-feb25.github.io/milestone-1-Salthof28/
 
 ## Features Implemented
 - **Navigation Bar**: Allows users to easily navigate between section.
