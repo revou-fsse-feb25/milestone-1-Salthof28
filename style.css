@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+.dark-brown {
+    color: #270D01;
+}
+.light-coral-orange {
+    color: #FCAD78;
+}
+.peach-cream {
+    color: #FEE2D4;
+}
+.teal-green {
+    color: #0BA98C;
+}
+.pale-cyan {
+    color: #CCE9EB;
+}
+.hot-pink {
+    color: #F62CD1;
+}
+.lavender-mist {
+    color: #E5D8FD;
+}
+h1, h2, p {
+    /* padding: 0; */
+    margin: 0.4rem;
+}
+h1 {
+    font-size: 2.5rem;
+}
+h2 {
+    font-size: 2rem;
+}
+p {
+    font-size: 1.5rem;
+}
+.nav {
+    /* use fixed, so as navbar followed when scroll */
+    position: fixed; 
+    top: 41%;
+    left: 0%;
+    background-color: #FFFFFF05;
+    width: 5rem;
+    border-radius: 10rem;
+    margin-left: 0.5rem;
+    text-align: center;
+}
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+.icon-container { 
+    /* use inline for still one line, use block for setting width and height */
+    display: inline-block;
+    background-size: cover;
+    width: 3rem;
+    height: 3rem;
+    stroke-width: 0.08rem;
+    stroke: #0BA98C;
+    fill: none;
+    /* setting end of the line (SVG only) */
+    stroke-linecap: round;
+    /* setting shape of the angle on the curved line (SVG only) */
+    stroke-linejoin: round; 
+} 
+.home {
+    background-color: #270D01;
+    display: flex;
+    flex-direction: row;
+    margin-left: 0;
+}
+.home div {
+    width: 40%;
+    padding-left: 15%;
+    padding-top: 15%;
+}
+.home img {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 45rem; 
+}
