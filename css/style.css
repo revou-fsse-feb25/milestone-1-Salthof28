@@ -23,6 +23,14 @@ body {
 .lavender-mist {
     color: #E5D8FD;
 }
+
+.bdark-brown {
+    background-color: #270D01;
+}
+.bdeep-teal {
+    background-color: #00131A;
+}
+
 h1, h2, p {
     /* padding: 0; */
     margin: 0.4rem;
@@ -36,6 +44,7 @@ h2 {
 p {
     font-size: 1.5rem;
 }
+
 .nav {
     /* use fixed, so as navbar followed when scroll */
     position: fixed; 
@@ -65,19 +74,39 @@ p {
     /* setting shape of the angle on the curved line (SVG only) */
     stroke-linejoin: round; 
 } 
-.home {
-    background-color: #270D01;
+.row-container {
     display: flex;
     flex-direction: row;
-    margin-left: 0;
+    padding-bottom: 5%;
+}
+.home {
+    padding-left: 15%;
 }
 .home div {
-    width: 40%;
-    padding-left: 15%;
+    width: 45%;
     padding-top: 15%;
 }
 .home img {
     padding-top: 5%;
-    padding-bottom: 5%;
     width: 45rem; 
+    
 }
+
+.about {
+    padding-left: 8%;
+}
+.about img {
+    padding-right: 25%;
+}
+.about article h1 {
+    text-align: center;
+    padding-top: 8%;
+    padding-bottom: 31%;
+    padding-right: 15%;
+}
+.about article p {
+    padding-right: 15%;
+    text-align: justify;
+}
+
+
