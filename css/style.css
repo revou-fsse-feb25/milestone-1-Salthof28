@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
     box-sizing: border-box;
@@ -93,6 +96,8 @@ p {
 }
 
 .about {
+    padding-top: 9%;
+    padding-bottom: 10%;
     padding-left: 8%;
 }
 .about img {
@@ -107,6 +112,45 @@ p {
 .about article p {
     padding-right: 15%;
     text-align: justify;
+}
+
+.education {
+    padding-left: 8%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: center;
+}
+.education > div {
+    margin: 2%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFFFFF05;
+    border-radius: 1%;
+}
+.education div h2 {
+    padding-top: 1%;
+    text-align: center;
+}
+.education div article {
+    display: flex;
+    flex-direction: row;
+    margin: 3%;
+    padding: 0 2%;
+    background-color: #56C7E825;
+    border-radius: 1rem;
+    
+}
+.education div article img {
+    width: 12.5rem;
+    height: auto;
+    object-fit: contain;
+}
+.education div article div {
+    margin: 2%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
