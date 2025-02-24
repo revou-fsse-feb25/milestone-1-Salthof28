@@ -37,6 +37,9 @@ section {
 .bdeep-teal {
     background-color: #00131A;
 }
+.bgradient-hotpink {
+    background: linear-gradient(160deg, #56c7e8, #f62cd1);
+}
 
 h1, h2, p {
     margin: 0;
@@ -48,7 +51,7 @@ h1 {
 h2 {
     font-size: 2rem;
 }
-p {
+p, ul {
     font-size: 1.5rem;
     margin: 0.4rem;
 }
@@ -179,5 +182,30 @@ section {
     text-align: justify;
 }
 
+.skill {
+    align-items: center;
+}
+.skill .row-container {
+    padding-top: 2%;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 56rem;
+    gap: 20px;
+}
+.skill .row-container div {
+    flex: 1; /* each content is the same size */
+    min-width: 12rem;
+    max-width: 15rem;
+    height: 16rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+}
+
+footer {
+    background-color: #00080a;
+    text-align: center;
+    padding: 0.1rem;
+}
 
 
