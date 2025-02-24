@@ -5,6 +5,10 @@ body {
     margin: 0;
     box-sizing: border-box;
 }
+section {
+    width: 100%;
+    /* height: 100%; */
+}
 .dark-brown {
     color: #270D01;
 }
@@ -35,8 +39,8 @@ body {
 }
 
 h1, h2, p {
-    /* padding: 0; */
-    margin: 0.4rem;
+    margin: 0;
+    
 }
 h1 {
     font-size: 2.5rem;
@@ -46,6 +50,7 @@ h2 {
 }
 p {
     font-size: 1.5rem;
+    margin: 0.4rem;
 }
 
 .nav {
@@ -76,54 +81,64 @@ p {
     stroke-linecap: round;
     /* setting shape of the angle on the curved line (SVG only) */
     stroke-linejoin: round; 
+}
+section {
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+.img-container {
+    width: 100%;
+    height: 100%;
+    text-align: center;
 } 
 .row-container {
     display: flex;
     flex-direction: row;
-    padding-bottom: 5%;
 }
-.home {
-    padding-left: 15%;
-}
-.home div {
-    width: 45%;
-    padding-top: 15%;
-}
-.home img {
-    padding-top: 5%;
-    width: 45rem; 
-    
+.column-container {
+    display: flex;
+    flex-direction: column;
 }
 
-.about {
-    padding-top: 9%;
-    padding-bottom: 10%;
-    padding-left: 8%;
+
+.home div {
+    padding-left: 15%;
+    width: 45%;
 }
-.about img {
-    padding-right: 25%;
+.home div h2 {
+    padding-top: 25%;
+}
+.home .img-container {
+    padding-right: 5%; 
+}
+.home .img-container img {
+    width: 30vw;
+}
+
+.about .img-container{
+    padding-left: 15%;
+    padding-right: 10%;
+}
+.about .img-container img {
+    width: 40rem;
 }
 .about article h1 {
     text-align: center;
     padding-top: 8%;
-    padding-bottom: 31%;
-    padding-right: 15%;
+    padding-bottom: 45%;
+    padding-right: 20%;
 }
 .about article p {
-    padding-right: 15%;
+    padding-right: 25%;
     text-align: justify;
 }
 
 .education {
-    padding-left: 8%;
-    padding-bottom: 2%;
     display: flex;
     justify-content: center;
 }
 .education > div {
-    margin: 2%;
-    display: inline-flex;
-    flex-direction: column;
+    margin: 2% 10%;
     justify-content: center;
     background-color: #FFFFFF05;
     border-radius: 1%;
@@ -133,13 +148,10 @@ p {
     text-align: center;
 }
 .education div article {
-    display: flex;
-    flex-direction: row;
     margin: 3%;
     padding: 0 2%;
     background-color: #56C7E825;
-    border-radius: 1rem;
-    
+    border-radius: 1rem; 
 }
 .education div article img {
     width: 12.5rem;
@@ -148,9 +160,24 @@ p {
 }
 .education div article div {
     margin: 2%;
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: center;
 }
+
+.work {
+    align-items: center;
+}
+.work div article {
+    background-color: #F62CD125;
+    margin-top: 4%;
+    padding: 5% 10%;
+    align-items: center;
+    border-radius: 1rem;
+}
+.work div article .img-container img {
+    width: 18.75rem;
+}
+.work div article ul {
+    text-align: justify;
+}
+
 
 
