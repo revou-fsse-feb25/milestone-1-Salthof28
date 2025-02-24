@@ -9,6 +9,7 @@ Deploy Website: https://revou-fsse-feb25.github.io/milestone-1-Salthof28/
 - **about Me Section**: Displays a brief introduction about my professional background.
 - **Work Experience Section**: Highlights my work experience with responsibilities and achievements.
 - **Skills Section**: Showcases technical skills with corresponding icons.
+- **CSS Styling**: Still develop :construction:
 - **Project Section**: Lists personal and professional projects upon future (Project Coming soon)
 - **Contact Form**: Allows users to send messages via a simple contact form. (backend still develop) :construction:
 
@@ -23,7 +24,6 @@ git clone https://github.com/revou-fsse-feb25/milestone-1-Salthof28.git
 2. Open index.html in a browser to view the website.
 
 ## Future Enhancements
-- Add CSS styling
 - Implement JavaScript for form validation and interactivity
 
 ## Author
