@@ -87,7 +87,7 @@ p, ul {
 }
 section {
     padding-top: 5%;
-    padding-bottom: 10%;
+    height: 100vh;
 }
 .img-container {
     width: 100%;
@@ -102,7 +102,12 @@ section {
     display: flex;
     flex-direction: column;
 }
-
+.column-card-grid {
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 1rem;
+}
 
 .home div {
     padding-left: 15%;
@@ -145,6 +150,7 @@ section {
     justify-content: center;
     background-color: #FFFFFF05;
     border-radius: 1%;
+    height: fit-content;
 }
 .education div h2 {
     padding-top: 1%;
@@ -193,19 +199,40 @@ section {
     gap: 20px;
 }
 .skill .row-container div {
-    flex: 1; /* each content is the same size */
     min-width: 12rem;
     max-width: 15rem;
     height: 16rem;
-    align-items: center;
-    justify-content: center;
-    border-radius: 1rem;
+}
+.skill .row-container div img {
+    width: 8rem;
 }
 
+.project {
+    align-items: center;
+    padding-top: 2%;
+}
+.project .row-container {
+    padding-top: 1%;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 70rem;
+}
+.project .row-container article {
+    min-width: 32rem;
+    max-width: 35rem;
+    height: 35rem;
+}
+.project .row-container article div {
+    align-items: center;
+    text-align: justify;
+    margin: 3%;
+}
+.project .row-container img {
+    width: 32rem;
+}
 footer {
     background-color: #00080a;
     text-align: center;
     padding: 0.1rem;
 }
-
-
