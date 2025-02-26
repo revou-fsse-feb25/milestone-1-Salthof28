@@ -135,16 +135,19 @@ button {
     padding-right: 10%;
 }
 .about .img-container img {
-    width: 40rem;
+    width: 30vw;
+}
+.about article {
+    justify-content: space-between;
 }
 .about article h1 {
     text-align: center;
-    padding-top: 8%;
-    padding-bottom: 45%;
+    padding-top: 10%;
     padding-right: 20%;
 }
 .about article p {
-    padding-right: 25%;
+    padding-bottom: 4%;
+    padding-right: 20%;
     text-align: justify;
 }
 
@@ -187,6 +190,7 @@ button {
     padding: 5% 10%;
     align-items: center;
     border-radius: 1rem;
+    margin: 8%;
 }
 .work div article .img-container img {
     width: 18.75rem;
@@ -278,4 +282,78 @@ footer {
     background-color: #00080a;
     text-align: center;
     padding: 0.1rem;
+}
+
+@media only screen and (max-width: 2195px) {
+    .about article {
+        justify-content: space-around;
+    }
+    .about article div {
+        padding-top: 35%;
+    }
+}
+@media only screen and (max-width: 1340px) {
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    p, ul {
+        font-size: 1rem;
+        margin: 0.4rem;
+    }
+    .skill .row-container {
+        max-width: 50rem;
+    }
+    .icon-container { 
+        width: 2rem;
+        height: 2rem;
+    }
+    .nav {
+        border-radius: 2rem;
+    }
+}
+@media only screen and (max-width: 982px) {
+    .nav {
+        position: fixed;
+        top: 96%;
+        left: 0;
+        margin-left: 0;
+        text-align: center;   
+        width: 100%;
+        border-radius: 0;
+        background-color: #080808;
+    }
+    .nav ul {
+        display: grid;
+        grid-auto-flow: column;
+    }
+    .home div {
+        padding-left: 8%;
+    }
+    .home .img-container img {
+        width: 25vw;
+    }
+    .about article h1 {
+        padding-top: 4%;
+    }
+    .about article div {
+        padding-top: 0;
+    }
+    .about .img-container{
+        padding-left: 8%;
+    }
+    .skill .row-container {
+        max-width: 30rem;
+    }
+    .skill .row-container div {
+        min-width: 7rem;
+        max-width: 10rem;
+        height: 11rem;
+    }
+    .skill .row-container div img {
+        width: 4rem;
+    }
+
 }
