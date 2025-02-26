@@ -102,11 +102,18 @@ section {
     display: flex;
     flex-direction: column;
 }
-.column-card-grid {
+.card-grid {
     flex: 1;
     align-items: center;
     justify-content: space-around;
     border-radius: 1rem;
+}
+button {
+    border-radius: 1rem;
+    background-color: #FCAD78;
+    font-weight: bold;
+    text-align: center;    
+    padding: 0.4rem 2rem;
 }
 
 .home div {
@@ -231,6 +238,38 @@ section {
 .project .row-container img {
     width: 32rem;
 }
+
+.contact, .contact + section {
+    align-items: center;
+    padding-top: 2%;
+    height: 35vw;
+}
+.contact form {
+    margin-top: 1%;
+    align-items: center;
+    background-color: #FFFFFF03;
+    padding: 2%;
+    border-radius: 1rem;
+}
+input, select, textarea {
+    border-radius: 1rem;
+    background-color: #D9D9D903;
+    border: 2px solid #270D01;
+    text-align: center;
+    padding: 4%;
+    width: 20rem;
+}
+select:focus{
+    background-color: #270D01;
+}
+textarea {
+    resize: none;
+    height: 10rem;
+}
+.contact + section {
+    height: 8vw;
+}
+
 footer {
     background-color: #00080a;
     text-align: center;
