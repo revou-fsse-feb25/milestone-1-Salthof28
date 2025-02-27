@@ -145,8 +145,8 @@ button {
     padding-top: 10%;
     padding-right: 20%;
 }
-.about article p {
-    padding-bottom: 4%;
+.about article div {
+    padding-bottom: 14%;
     padding-right: 20%;
     text-align: justify;
 }
@@ -194,6 +194,12 @@ button {
 }
 .work div article .img-container img {
     width: 18.75rem;
+}
+.work div article h3 {
+    text-align: center;
+}
+.work div article p {
+    text-align: center;
 }
 .work div article ul {
     text-align: justify;
@@ -317,8 +323,10 @@ footer {
 @media only screen and (max-width: 982px) {
     .nav {
         position: fixed;
-        top: 96%;
-        left: 0;
+        top: 94%;
+        left: 0%;
+        right: 0%;
+        padding-bottom: 10%;
         margin-left: 0;
         text-align: center;   
         width: 100%;
@@ -328,6 +336,10 @@ footer {
     .nav ul {
         display: grid;
         grid-auto-flow: column;
+    }
+    .icon-container{
+        width: 3rem;
+        height: 3rem;
     }
     .home div {
         padding-left: 8%;
@@ -339,10 +351,19 @@ footer {
         padding-top: 4%;
     }
     .about article div {
-        padding-top: 0;
+        padding-top: 10%;
     }
     .about .img-container{
         padding-left: 8%;
+    }
+    .education div article {
+        padding: 5% 3%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .education div article img {
+        width: 8rem;
     }
     .skill .row-container {
         max-width: 30rem;
@@ -355,5 +376,57 @@ footer {
     .skill .row-container div img {
         width: 4rem;
     }
-
+    footer {
+        padding-bottom: 10%;
+    }
+}
+@media only screen and (max-width: 712px) {
+    .icon-container{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .home {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .home div {
+        width: 95%;
+    }
+    .home div h2 {
+        padding-top: 5%;
+    }
+    .home .img-container img {
+        width: 50vw;
+    }
+    .about {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about article {
+        justify-content: none;
+    }
+    .about article h1 {
+        padding-top: 0%;
+        padding-right: 0%;
+    }
+    .about article div {
+        padding: 0% 5%;
+    }
+    .work div article .img-container img {
+        width: 8rem;
+    }
+    .skill .row-container {
+        max-width: 15rem;
+    }
+    .work div article ul {
+        text-align: start;
+    }
+    .skill .row-container div {
+        min-width: 5rem;
+        max-width: 8rem;
+        height: 9rem;
+    }
+    footer {
+        padding-bottom: 20%;
+    }
 }
