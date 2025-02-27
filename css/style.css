@@ -353,9 +353,7 @@ footer {
     .about article div {
         padding-top: 10%;
     }
-    .about .img-container{
-        padding-left: 8%;
-    }
+
     .education div article {
         padding: 5% 3%;
         flex-direction: column;
@@ -381,26 +379,30 @@ footer {
     }
 }
 @media only screen and (max-width: 712px) {
-    .icon-container{
+    /* .icon-container{
         width: 2.5rem;
         height: 2.5rem;
-    }
+    } */
     .home {
         flex-direction: column-reverse;
         align-items: center;
     }
     .home div {
         width: 95%;
+        padding: 0;
     }
     .home div h2 {
         padding-top: 5%;
     }
     .home .img-container img {
-        width: 50vw;
+        width: 40vw;
     }
     .about {
         flex-direction: column;
         align-items: center;
+    }
+    .about .img-container{
+        padding: 0%;
     }
     .about article {
         justify-content: none;
