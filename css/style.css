@@ -466,11 +466,7 @@ footer {
         padding-bottom: 35%;
     }
     footer {
-        padding-bottom: 15%;
+        padding-bottom: 6vh;
     }
 }
-@media only screen and (max-width: 476px) {
-    footer {
-        padding-bottom: 26%;
-    }
-}
+
