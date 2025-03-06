@@ -235,11 +235,10 @@ button {
 }
 .work div article {
     background-color: #F62CD125;
-    margin-top: 4%;
     padding: 5% 10%;
     align-items: center;
     border-radius: 1rem;
-    margin: 8%;
+    margin: 2% 8%;
 }
 .work div article .img-container img {
     width: 18.75rem;
@@ -366,6 +365,9 @@ button {
     max-width: 35rem;
     height: auto;
 }
+.project .row-container article:hover {
+    filter: drop-shadow(0 0 0.75rem rgba(218, 119, 231, 0.637));
+}
 .project .row-container article div {
     align-items: center;
     text-align: justify;
@@ -429,6 +431,9 @@ svg:hover {
     transform: scale(1.3);
     transition: 0.5s ease-in-out;
     z-index: 6;
+}
+button:hover {
+    filter: drop-shadow(0 0 0.75rem rgba(221, 165, 113, 0.404));
 }
 
 footer {
