@@ -210,6 +210,7 @@ button {
     background-color: #FFFFFF05;
     border-radius: 1%;
     height: fit-content;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
 }
 .education div h2 {
     padding-top: 1%;
@@ -220,6 +221,11 @@ button {
     padding: 0 2%;
     background-color: #56C7E825;
     border-radius: 1rem; 
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+}
+.education div article:hover {
+    transform: scale(1.01);
+    transition: 0.5s ease-in-out;
 }
 .education div article img {
     width: 12.5rem;
@@ -239,6 +245,12 @@ button {
     align-items: center;
     border-radius: 1rem;
     margin: 2% 8%;
+    box-shadow: 0px 4px 15px rgba(246, 44, 209, 0.6);
+}
+.work div article:hover {
+    transform: scale(1.02);
+    transition: 0.5s ease-in-out;
+    box-shadow: 0px 4px 15px rgb(246, 44, 209);
 }
 .work div article .img-container img {
     width: 18.75rem;
@@ -392,6 +404,11 @@ button {
     background-color: #FFFFFF03;
     padding: 5%;
     border-radius: 1rem;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+}
+.contact form:hover {
+    transform: scale(1.03);
+    transition: 0.5s ease-in-out;
 }
 input, select, textarea {
     border-radius: 1rem;
@@ -618,6 +635,9 @@ footer {
     .contact form {
         padding: 8%;
         margin: 2%;
+    }
+    .contact form:hover {
+        transform: scale(1.01);
     }
     input, select, textarea {
         width: 15rem;
