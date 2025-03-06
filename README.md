@@ -1,7 +1,8 @@
 # Project Milestone 1
 
 ## Overview
-This is a personal portfolio website showcasing my skills, education, work experience, and projects. The website is designed to provide an overview of my background as a Industrial Engineer and electronic engineer with expertise in programming and industrial automation.
+This is a personal portfolio website showcasing my skills, education, work experience, and projects. The website is designed to provide an overview of my background as a Industrial Engineer and electronic engineer with expertise in programming and industrial automation. Screenshot website:
+![Website Preview](assets/home-screenshot.png) ![Website Preview](assets/project-screenshot.png)<br>
 Deploy Website:<br>
 github: https://revou-fsse-feb25.github.io/milestone-1-Salthof28/ <br>
 netlify: https://zingy-stroopwafel-4d6f42.netlify.app/
