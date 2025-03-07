@@ -13,6 +13,7 @@ netlify: https://zingy-stroopwafel-4d6f42.netlify.app/
 - **Work Experience Section**: Highlights my work experience with responsibilities and achievements.
 - **Skills Section**: Showcases technical skills with corresponding icons.
 - **Responsive Design**: The website is mobile-friendly and adapts to different screen sizes.
+- **Vapor Animations**: Background project have effect vapor. :dash: :cloud:
 - **Smooth Animations**: Enhances user experience with transition effects.
 - **Project Section**: Lists personal and professional projects upon future (Project Coming soon)
 - **Contact Form**: Allows users to send messages via a simple contact form. (backend still develop) :construction:
